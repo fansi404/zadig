@@ -9,7 +9,7 @@ build:
     service_module: service_module_name # 服务组件名
     variables: # zadig 系统中需要先声明出来才能指定，否则这边配置也无效
       - name: k1
-        value: v1
+        value: v1222
 # 部署策略
 deploy:
   strategy: single # single(更新指定环境)/dynamic(动态选择空闲环境)/base(更新基准环境，需配置 env_recycle_policy 和 base_env)
