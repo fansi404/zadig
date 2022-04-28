@@ -30,11 +30,11 @@ spec:
             - protocol: TCP
               containerPort: 80
           resources:
-            limits:
-              cpu: 1
-              memory: 512Mi
             requests:
-              cpu: 100m
-              memory: 100M
+              memory: "10Mi"
+              cpu: "10m"
+            limits:
+              memory: "50Mi"
+              cpu: "50m"
       imagePullSecrets:
         - name: default-registry-secret

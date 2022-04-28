@@ -26,5 +26,13 @@ spec:
           ports:
             - protocol: TCP
               containerPort: 20219
+          resources:
+            requests:
+              memory: "10Mi"
+              cpu: "10m"
+            limits:
+              memory: "50Mi"
+              cpu: "50m"
       imagePullSecrets:
         - name: default-registry-secret
+
