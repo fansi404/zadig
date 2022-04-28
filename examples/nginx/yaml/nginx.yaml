@@ -41,6 +41,13 @@ spec:
         volumeMounts:
           - name: static-page
             mountPath: /usr/share/nginx/html
+        resources:
+          requests:
+            memory: "10Mi"
+            cpu: "10m"
+          limits:
+            memory: "50Mi"
+            cpu: "50m"
       volumes:
         - name: static-page
           configMap:
