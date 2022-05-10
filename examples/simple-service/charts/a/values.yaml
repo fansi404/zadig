@@ -7,3 +7,7 @@ repository: ccr.ccs.tencentyun.com/koderover-rc
 servicea:
   app: myapp-1
   tag: a
+  
+limits:
+  cpu: 20m
+  memory: 20Mi
