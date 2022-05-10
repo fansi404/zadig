@@ -52,7 +52,3 @@ spec:
           value: "x-request-id"
         ports:
         - containerPort: 8080
-        resources:
-          limits:
-            cpu: 100m
-            memory: 100Mi
