@@ -36,6 +36,13 @@ spec:
       - name: nginx
         image: {{ .Values.repository }}/{{ .Values.servicea.app }}:{{ .Values.servicea.tag }}
         imagePullPolicy: Always
+        resources:
+          limits:
+            cpu: {{ .Values.limits.cpu }}
+            memory: {{ .Values.limits.memory }}
+          requests:
+            cpu: 10m
+            memory: 10Mi
         command: ["/myapp-1"]
         args: ["--downstream-addr", "$(DOWNSTREAM_ADDR)", "--headers", "$(HEADERS)"]
         env:
