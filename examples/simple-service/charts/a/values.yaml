@@ -9,5 +9,5 @@ servicea:
   tag: a
   
 limits:
-  cpu: 30m
-  memory: 30Mi
+  cpu: 20m
+  memory: 20Mi
