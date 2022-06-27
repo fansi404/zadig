@@ -9,7 +9,7 @@ services:
   vote:
     port: 5000
     image: dockersamples/examplevotingapp_vote:before
-    replicas: 2
+    replicas: 1
 
   result:
     port: 5001
