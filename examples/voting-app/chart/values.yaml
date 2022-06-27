@@ -9,7 +9,7 @@ services:
   vote:
     port: 5000
     image: dockersamples/examplevotingapp_vote:before
-    replicas: 1
+    replicas: 2
 
   result:
     port: 5001
@@ -32,5 +32,5 @@ services:
 
 resources:
   limits:
-    cpu: 50m
-    memory: 50Mi
+    cpu: 60m
+    memory: 60Mi
