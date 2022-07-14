@@ -6,4 +6,4 @@ repository: koderover.tencentcloudcr.com/koderover-demo
 
 serviceb:
   app: myapp-2
-  tag: b
+  tag: v0.1__linux_amd64
