@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-repository: ccr.ccs.tencentyun.com/koderover-rc
+repository: koderover.tencentcloudcr.com/koderover-demo
 
 serviceb:
   app: myapp-2
