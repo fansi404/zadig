@@ -2,7 +2,7 @@
 
 ## System Architecture
 
-![Architecture_diagram](./Zadig-System-Architecture.svg)
+![Architecture_diagram](./Zadig-Business-Architecture.jpg)
 
 ## Main Components
 
