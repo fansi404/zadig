@@ -7,6 +7,7 @@ repository: koderover.tencentcloudcr.com/koderover-demo
 servicea:
   app: myapp-1
   tag: v0.1__linux_amd64
+  port: "8080"
   
 limits:
   cpu: 20m
