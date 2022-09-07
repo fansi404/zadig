@@ -8,7 +8,7 @@ spec:
   ports:
   - name: http
     port: 80
-    targetPort: "8080"
+    targetPort: 8080
   selector:
     app: a
 
@@ -51,4 +51,4 @@ spec:
         - name: HEADERS
           value: "x-request-id"
         ports:
-        - containerPort: "8080"
+        - containerPort: 8080
